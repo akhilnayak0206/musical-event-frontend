@@ -47,6 +47,8 @@ export default function EventPage({ evt }) {
   )
 }
 
+// dummy example if don't want to use serverSideProps
+
 // export async function getStaticPaths() {
 //   const res = await fetch(`${API_URL}/events`)
 //   const events = await res.json()
